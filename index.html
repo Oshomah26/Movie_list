@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie list</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Films to see</h1>
+    
+    <form action="#" id="input-form">
+        <div id="movie-info">
+            <div class="individual-info">
+                <label for="Movie title">Movie title</label>
+                <input type="text" id="movie-title" name="movie-title" placeholder="Enter movie title" class="individual-info-box">
+            </div>
+            <div class="individual-info">
+                <label for="Director">Director</label>
+                <input type="text" id="director" name="director" placeholder="Enter director name" class="individual-info-box">
+            </div>
+            <div class="individual-info">
+                <label for="Genre">Genre</label>
+                <input type="text" id="genre" name="genre" placeholder="Enter genre" class="individual-info-box">
+            </div>
+            <div class="individual-info">
+                <label for="Year">Year</label>
+                <input type="text" id="year" name="year" placeholder="Enter year" class="individual-info-box">
+            </div>
+        <button id="submit">Submit</button>
+        </div>
+    </form>
+
+    <table id="movie-table">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Director</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="movie-list">
+        </tbody>
+    </table>
+ </div>
+<script src="app.js"></script>
+</body>
+</html>
